@@ -10,26 +10,26 @@ function Contact() {
     <div>
       <form className="col-5 mx-auto">
         <div className="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label className="custom_font_size">Email address</label>
           <input
             type="email"
             className="form-control shadow-lg p-3 bg-white rounded"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
           />
-          <small id="emailHelp" className="form-text text-muted">
+          <small id="emailHelp" className="form-text other_font_size">
             We'll never share your email with anyone else.
           </small>
         </div>
         <div className="form-group">
-          <label for="exampleInputPassword1">Name</label>
+          <label className="custom_font_size">Name</label>
           <input
             type="text"
             className="form-control shadow-lg p-3 bg-white rounded"
           />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Enter Message Here</label>
+          <label className="custom_font_size">Enter Message Here</label>
           <textarea
             className="form-control shadow-lg p-3 bg-white rounded"
             id="exampleFormControlTextarea1"
