@@ -6,9 +6,9 @@ const githubClick =() =>{
 document.location.replace("https://github.com/mattjgatsby")
 }
   return (
-    <div class="navbar navbar-dark bg-dark">
+    <div class="navbar navbar-dark bg-dark fixed-bottom">
       <img
-      className="mx-auto"
+      className="mx-auto "
         src={ghImage}
         alt="GitHub Icon"
         onClick={githubClick}

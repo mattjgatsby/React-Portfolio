@@ -37,7 +37,8 @@
   }
 }
 .image {
-  
+  object-fit: cover;
+  object-position: 15% 100%;
 }
 .card_size {
   width: 500px;
@@ -47,4 +48,5 @@
 .custom_project_div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }

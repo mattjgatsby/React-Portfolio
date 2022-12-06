@@ -14,52 +14,51 @@ function Projects() {
           target="blank"
         >
           <img
-            classNameName="image"
             src={SoundsLike}
-            className="card-img-top"
+            className="card-img-top image"
             alt="Sounds Like Project ScreenShot"
           />
         </a>
       </div>
       <div className="card card_size border border-dark">
         <h1>Work Day Scheduler</h1>
-        <img
-          src={WorkDay}
-          className="card-img-top"
-          alt="Work Day Scheduler Gif"
-          onClick={() =>
-            document.location.replace(
-              "https://mattjgatsby.github.io/work-day-scheduler/"
-            )
-          }
-        />
+        <a
+          href="https://mattjgatsby.github.io/work-day-scheduler/"
+          target="blank"
+        >
+          <img
+            src={WorkDay}
+            className="card-img-top image"
+            alt="Work Day Scheduler Gif"
+          />
+        </a>
       </div>
       <div className="card card_size border border-dark">
         <h1>E-Commerce Backend</h1>
-        <img
-          src={ECommerce}
-          className="card-img-top"
-          alt="E-Commerce backend ScreenShot"
-          onClick={() =>
-            document.location.replace(
-              "https://github.com/mattjgatsby/E-commerce-back-end"
-            )
-          }
-        />
+        <a
+          href="https://github.com/mattjgatsby/E-commerce-back-end"
+          target="blank"
+        >
+          <img
+            src={ECommerce}
+            className="card-img-top image"
+            alt="E-Commerce backend ScreenShot"
+          />
+        </a>
       </div>
 
       <div className="card card_size border border-dark">
         <h1>Employee Tracker</h1>
-        <img
-          src={EmployeeTracker}
-          className="card-img-top"
-          alt="Employee Tracker Backend screenshot"
-          onClick={() =>
-            document.location.replace(
-              "https://github.com/mattjgatsby/employee-tracker"
-            )
-          }
-        />
+        <a
+          href="https://github.com/mattjgatsby/employee-tracker"
+          target="blank"
+        >
+          <img
+            src={EmployeeTracker}
+            className="card-img-top image"
+            alt="Employee Tracker Backend screenshot"
+          />
+        </a>
       </div>
     </div>
   );
