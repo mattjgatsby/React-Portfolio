@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
-const Header = () => {
+const Header = ({page, handlePageNav}) => {
   return (
     <div className="nav-links">
       <a
         href="#aboutMe"
-        onClick={() => handlePageChange("AboutMe")}
+        onClick={() => handlePageNav("AboutMe")}
         className={page == "AboutMe" ? "nav-link active" : "nav-link"}
       >
         AboutMe
@@ -13,7 +13,7 @@ const Header = () => {
 
       <a
         href="#resume"
-        onClick={() => handlePageChange("Resume")}
+        onClick={() => handlePageNav("Resume")}
         className={page == "Resume" ? "nav-link active" : "nav-link"}
       >
         Resume
@@ -21,7 +21,7 @@ const Header = () => {
 
       <a
         href="#projects"
-        onClick={() => handlePageChange("Projects")}
+        onClick={() => handlePageNav("Projects")}
         className={page == "Projects" ? "nav-link-active" : "nav-link"}
       >
         Projects
@@ -29,7 +29,7 @@ const Header = () => {
 
       <a
         href="#contact"
-        onClick={() => handlePageChange("Contact")}
+        onClick={() => handlePageNav("Contact")}
         className={page == "Contact" ? "nav-link-active" : "nav-link"}
       >
         Contact
