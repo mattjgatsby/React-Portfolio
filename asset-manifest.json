@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7416a66a.css",
+    "main.js": "/React-Portfolio/static/js/main.cc39f434.js",
+    "static/js/787.08647562.chunk.js": "/React-Portfolio/static/js/787.08647562.chunk.js",
+    "static/media/Sounds-like-Project.jpg": "/React-Portfolio/static/media/Sounds-like-Project.f0766902a341c2ee7065.jpg",
+    "static/media/Work Day Scheduler.gif": "/React-Portfolio/static/media/Work Day Scheduler.f992fc8fe44b7c8be682.gif",
+    "static/media/Resume.png": "/React-Portfolio/static/media/Resume.905a43f710177a42d227.png",
+    "static/media/E-Commerce-SS.png": "/React-Portfolio/static/media/E-Commerce-SS.a1c10f6bcc23d625246a.png",
+    "static/media/Me2019.png": "/React-Portfolio/static/media/Me2019.25c73609b17bff2844b7.png",
+    "static/media/Employee-Tracker.png": "/React-Portfolio/static/media/Employee-Tracker.0e63a78e26d83550b603.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.7416a66a.css.map": "/React-Portfolio/static/css/main.7416a66a.css.map",
+    "main.cc39f434.js.map": "/React-Portfolio/static/js/main.cc39f434.js.map",
+    "787.08647562.chunk.js.map": "/React-Portfolio/static/js/787.08647562.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7416a66a.css",
+    "static/js/main.cc39f434.js"
+  ]
+}
