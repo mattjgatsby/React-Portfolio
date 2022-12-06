@@ -50,3 +50,19 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.custom_resume_style {
+  width: 75%;
+  padding: auto;
+  display: flex;
+  align-items: center;
+}
+.image_center {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+.h1 {
+  display: flex;
+  align-items: center;
+}
