@@ -28,7 +28,7 @@ const Header = ({page, handlePageNav}) => {
       </a>
 
       <a
-        href="#contact"
+        href="#Contact"
         onClick={() => handlePageNav("Contact")}
         className={page === "Contact" ? "nav-link-active" : "nav-link"}
       >
