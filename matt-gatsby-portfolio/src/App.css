@@ -91,6 +91,10 @@
   background-repeat: repeat;
   background-size: auto auto;
   background-attachment: fixed;
+  position: fixed;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 .custom_about_image {
   border: 10px double black;
