@@ -1,15 +1,20 @@
 import React from "react";
+import ghImage from "../assets/images/GitHub-Mark-Light-64px.png";
 
 const Footer = () => {
-    return (
-        <div>
-            <img
-            src="../../assets/images/GitHub-Mark-Light-64px.png"
-            alt="GitHub Icon"
-            href='https://github.com/mattjgatsby'
-            ></img>
-        </div>
-    )
+const githubClick =() =>{
+document.location.replace("https://github.com/mattjgatsby")
 }
+  return (
+    <div class="navbar navbar-dark bg-dark">
+      <img
+      class="mx-auto"
+        src={ghImage}
+        alt="GitHub Icon"
+        onClick={githubClick}
+      ></img>
+    </div>
+  );
+};
 
 export default Footer;

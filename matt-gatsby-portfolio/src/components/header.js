@@ -1,28 +1,28 @@
-import React, {useState} from "react";
+import React from "react";
 
 const Header = ({page, handlePageNav}) => {
   return (
-    <div className="nav-links">
+    <div className="nav-links App-header">
       <a
-        href="#aboutMe"
-        onClick={() => handlePageNav("AboutMe")}
-        className={page == "AboutMe" ? "nav-link active" : "nav-link"}
+        href="#About"
+        onClick={() => handlePageNav("About")}
+        className={page === "About" ? "nav-link active" : "nav-link"}
       >
-        AboutMe
+        About Me
       </a>
 
       <a
         href="#resume"
         onClick={() => handlePageNav("Resume")}
-        className={page == "Resume" ? "nav-link active" : "nav-link"}
+        className={page === "Resume" ? "nav-link active" : "nav-link"}
       >
         Resume
       </a>
 
       <a
-        href="#projects"
-        onClick={() => handlePageNav("Projects")}
-        className={page == "Projects" ? "nav-link-active" : "nav-link"}
+        href="#Project"
+        onClick={() => handlePageNav("Project")}
+        className={page === "Project" ? "nav-link-active" : "nav-link"}
       >
         Projects
       </a>
@@ -30,7 +30,7 @@ const Header = ({page, handlePageNav}) => {
       <a
         href="#contact"
         onClick={() => handlePageNav("Contact")}
-        className={page == "Contact" ? "nav-link-active" : "nav-link"}
+        className={page === "Contact" ? "nav-link-active" : "nav-link"}
       >
         Contact
       </a>
