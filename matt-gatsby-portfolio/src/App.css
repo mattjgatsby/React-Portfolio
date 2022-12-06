@@ -37,10 +37,14 @@
   }
 }
 .image {
-  object-fit: cover;
+  
 }
 .card_size {
-  display:flex;
+  width: 500px;
+  padding: 10px;
+  margin: 0;
+}
+.custom_project_div {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }

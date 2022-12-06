@@ -6,7 +6,7 @@ function About() {
     <div>
       <h1>Matthew Gatsby</h1>
       <img
-        class="image w-25 p-3 mx-auto d-block"
+        className="image w-25 p-3 mx-auto d-block"
         src={mePicture}
         alt="me from 2019"
       ></img>

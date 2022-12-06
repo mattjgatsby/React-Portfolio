@@ -4,6 +4,7 @@ import Footer from "./footer";
 import About from "./aboutMe";
 import Resume from "./resume";
 import Projects from "./projects/project";
+import Contact from "./contact";
 
 function Home() {
   const [page, setPage] = useState("About");
@@ -14,11 +15,12 @@ function Home() {
     }
     if (page === "Project") {
       return <Projects />;
-      }
+    }
     if (page === "Resume") {
-        return <Resume />;
-      // } else if (page === "Contact") {
-      //   return <Contact />;
+      return <Resume />;
+    }
+    if (page === "Contact") {
+      return <Contact />;
     }
   };
   const handlePageNav = (page) => setPage(page);
