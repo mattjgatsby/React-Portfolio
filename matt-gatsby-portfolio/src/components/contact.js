@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { validateEmail } from "../utils/helpers";
 
 function Contact() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <form className="col-5 mx-auto">
       <div class="form-group">
@@ -16,11 +21,10 @@ function Contact() {
         </small>
       </div>
       <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
+        <label for="exampleInputPassword1">Name</label>
         <input
-          type="password"
+          type="text"
           class="form-control shadow-lg p-3 bg-white rounded"
-          id="exampleInputPassword1"
         />
       </div>
       <div class="form-group">
