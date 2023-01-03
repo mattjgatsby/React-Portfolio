@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../assets/images/Resume.png";
+import myResume from "../assets/images/Matthew Gatsby.png";
 
 function Resume() {
   return (
