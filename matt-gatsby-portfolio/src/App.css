@@ -1,4 +1,119 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+:root {
+  --nav-white: #fff;
+  --nav--blue: #4287f5;
+  --nav-dark: rgba(255, 255, 255, 0);
+  --header--font: #fff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Menu Link Custom Style */
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--nav-white) !important;
+  border-top: 0.1875rem solid var(--nav-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--nav--blue);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--nav--blue);
+}
+
+/* Header Custom Styling */
+
+.header-wraper {
+  position: relative;
+  background: url(bgImage.gif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--header--font);
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 3rem !important;
+  }
+}
+
+/* About Custom Styling */
+
+.custom_about_image {
+  height: 50vh;
+  object-fit: cover;
+  width: 80%;
+  border-radius: 50%
+}
+
+.custom_about_text {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 2rem
+}
+
+.header_font_size {
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.0375rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* OLD CSS* {
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -118,4 +233,4 @@ Form {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 20px;
-}
+} */

@@ -9,7 +9,7 @@ This application is my personal portfolio that I created using React.js. Buildin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![ScreenShot](/matt-gatsby-portfolio/src/assets/images/chrome_cJp861E3SE.jpg)
+![ScreenShot](/matt-gatsby-portfolio/src/assets/images/SiteSS.png)
 
 ## Technology Used
 * React.js
