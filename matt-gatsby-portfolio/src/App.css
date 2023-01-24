@@ -293,3 +293,58 @@ h1,
     width: 55px;
   }
 }
+
+/* Resume Custom Styling */
+
+#resume_page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #18151f;
+}
+
+#resume_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+}
+
+#resume_a{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume_header{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(0, 108, 116)
+  
+}
+.resume_pic{
+  width: 75%;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 680px) {
+  #footer_div{font-size: 20px;}
+  .portfolio_header h1{font-size: 30px;}
+}
+@media (max-width:  1024px) {
+  .portfolio_header, .resume-picture {
+    max-width: 500px;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-picture {
+    max-width: 300px;
+    max-height: 100%;
+    justify-content: center;
+  }
+}
