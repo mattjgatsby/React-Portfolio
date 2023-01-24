@@ -3,7 +3,7 @@ import myLogo from "../assets/images/myLogo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark  bg_custom">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src={myLogo} alt="my custom logo" />

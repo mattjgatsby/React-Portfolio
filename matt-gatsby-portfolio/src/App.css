@@ -13,6 +13,10 @@
 
 /* Menu Link Custom Style */
 
+.bg_custom {
+  background-color: #18151f !important;
+}
+
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -84,6 +88,9 @@ nav li {
 }
 
 /* About Custom Styling */
+.background {
+  background-color: #18151f;
+}
 
 .custom_about_image {
   height: 50vh;
@@ -104,12 +111,14 @@ nav li {
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: 2rem;
+  color: var(--nav-white);
 }
 
 .header_font_size {
   font-size: 4rem;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.0375rem;
+  color: var(--nav-white);
 }
 
 /* Projects Custom Styling */
@@ -347,4 +356,14 @@ h1,
     max-height: 100%;
     justify-content: center;
   }
+}
+
+/* Contact Custom Styling */
+
+.container-custom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #18151f;
 }

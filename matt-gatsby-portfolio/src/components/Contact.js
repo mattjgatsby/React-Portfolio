@@ -31,7 +31,12 @@ const Contact = () => {
   };
   return (
     <div>
-      <div className="container">
+      <div className="container-custom">
+        <div id="resume_page">
+          <h1 id="resume_header">
+            If you'd like to contact me, fill out the form below!
+          </h1>
+        </div>
         <form onSubmit={handleOnSubmit}>
           <div className="row pt-5 mx-auto">
             <div className="col08 form-group mx-auto">
